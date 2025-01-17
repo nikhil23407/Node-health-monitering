@@ -18,16 +18,4 @@ echo "Disk space usage on $NODE: $DISK_USAGE"
 
 # Check CPU usage
 CPU_USAGE=$(ssh $NODE 'top -bn1 | grep "Cpu(s)" | awk '{print $2 + $4}'')
-echo "CPU usage on $NODE: $CPU_USAGE%"
-
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
--- VISUAL --                                                                                              21        1,1           All
+echo "CPU usage on $NODE: $CPU_USAGE%"                                                                                             21        1,1           All
